@@ -12,14 +12,12 @@
 
 ## Запуск
 
-Python 3.13.
+Python 3.12.
 
 ```bash
 cd wine_app
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
+py -3.12 -m pip install -r requirements.txt
+py -3.12 -m streamlit run app.py
 ```
 
 Адрес: http://localhost:8501
